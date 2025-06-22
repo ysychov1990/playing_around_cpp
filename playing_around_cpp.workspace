@@ -2,15 +2,18 @@
 <CodeLite_Workspace Name="playing_around_cpp" Database="" Version="10000" SWTLW="Yes">
   <WorkspaceParserMacros/>
   <WorkspaceParserPaths/>
-  <Project Name="test_project" Path="test_project/test_project.project" Active="Yes"/>
+  <Project Name="test_project" Path="test_project/test_project.project" Active="No"/>
+  <Project Name="section_5" Path="section_5/section_5.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="test_project" ConfigName="Debug"/>
+      <Project Name="section_5" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="test_project" ConfigName="Release"/>
+      <Project Name="section_5" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
